@@ -18,4 +18,4 @@ Name: Jarrett Gates
   The first thing that came to mind while I was working on this project was to implement the 'pattern' array with random integers between 1-4. This would add another degree of complexity and allow the game to have more replayability.
   I also want to add a difficulty setting that a user can choose from, depending on how much time they have to play, there could be an 'easy', 'normal' and 'hard' mode. With each difficulty adjusting the timer for the tones/lights, extending the amount of buttons to press and remember, and adding/removing buttons.
   
- <img src="http://g.recordit.co/qhWDCm8FEI.gif" width=1080><br>
+ <img src="http://g.recordit.co/Fa9ireaxfd.gif" width=1080><br>
