@@ -49,3 +49,15 @@ button {
 #button4:active, #button4.lit  {
   background : yellow;
 }
+#button5 {
+  background: rgb(100, 215, 220);
+}
+#button5:active, #button5.lit  {
+  background : rgb(50, 115, 220);
+}
+#button6 {
+  background : rgb(120, 120, 420);
+}
+#button6:active, #button6.lit  {
+  background : rgb(75, 80, 220); 
+}
