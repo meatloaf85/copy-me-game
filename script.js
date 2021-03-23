@@ -106,10 +106,15 @@ function guess(btn){
     mistakes += 1;
     //guess incorrect
     //gameover
-    if(mistakes < 3){
+    if(mistakes < 2){
       tries -= 1;
       document.getElementById("myTries").innerHTML = "You have " + tries + " tries remaining.";
       //alert("You have " + tries + " tries remaining");
+    }
+    if(mistakes == 2){
+      tries -= 1;
+      document.getElementById("myTries").innerHTML = "You have " + tries + " try remaining.";
+      //alert("You have " + tries + " try remaining");
     }
     if(mistakes == 3){
       document.getElementById("myTries").innerHTML = "You have " + 0 + " tries remaining. Game over!";
