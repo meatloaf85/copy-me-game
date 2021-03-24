@@ -4,6 +4,7 @@ Name: Jarrett Gates
   I referenced the official JS documentation https://developer.mozilla.org/en-US/docs/Web/JavaScript, https://www.w3schools.com/ for color and other CSS properties, and https://stackoverflow.com/ for trying out JS methods to edit CSS attributes.
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
+
   The biggest challenge I encountered during this project was completing the random guess optional feature.
   I referred to the JS docs once again to understand how Math.random() is used properly. After a bit of researching, I discovered when combined with Math.floor(), you could do this -> Math.floor(Math.random()) * n+1, where n is the number of buttons I have set. If the random number was 0, I threw out that number and looped again to make sure I received the numbers only in the range of buttons I have set. 
   
