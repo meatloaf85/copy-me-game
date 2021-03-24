@@ -21,3 +21,6 @@ Name: Jarrett Gates
   
   
  <img src="http://g.recordit.co/Fa9ireaxfd.gif" width=1080><br>
+  <img src="http://g.recordit.co/skDT4unLgN.gif" width=1080><br>
+  <img src="http://g.recordit.co/EUsbmkrTOS.gif" width=1080><br>
+
