@@ -19,13 +19,10 @@ Name: Jarrett Gates
   If the user wanted more of a challenge, I would add a difficulty setting that a user can choose from: 'easy', 'normal' or 'hard' mode. With each difficulty adjusting the timer for the tones/lights to be shorter or longer and adding/removing the amount of buttons to press. 
   I also implemented a visual 'try' counter, the game ends after the user makes three mistakes. I would have liked to further expand on this by adding an audio cue when pressing the wrong button on top of the visual counter changing.
   
-  
- <img src="http://g.recordit.co/Fa9ireaxfd.gif" width=1080><br>
- 
- ## Testing easy and normal difficulty modes and lose scenarios.
+ ## Testing easy and normal difficulty modes with lose scenarios.
   <img src="http://g.recordit.co/skDT4unLgN.gif" width=1080><br>
   
- ## Testing hard and normal difficulty modes.
+ ## Testing hard and normal difficulty modes with lose scenarios..
  <img src="http://g.recordit.co/DlNX19Mqmt.gif" width=1080><br>
   
  ## Test win on easy mode.
