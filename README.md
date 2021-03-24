@@ -23,12 +23,15 @@ Name: Jarrett Gates
  
   ** (See EDIT:) If the user wanted more of a challenge, I would add a difficulty setting that a user can choose from: 'easy', 'normal' or 'hard' mode. With each difficulty adjusting the timer for the tones/lights to be shorter or longer and adding/removing the amount of buttons to press. ** EDIT: I had extra time over my spring break and implemented this function, I am quite happy with it!
   
-  I also implemented a visual 'try' counter, the game ends after the user makes three mistakes. I would have liked to further expand on this by adding an audio cue when pressing the wrong button on top of the visual counter changing.
+  I implemented a visual 'try' counter, the game ends after the user makes three mistakes. I would have liked to further expand on this by adding an audio cue when pressing the wrong button on top of the visual counter changing.
+  
+  With the addition of adding difficulty modes, some of my code repeats itself in several areas. I would like to be able to optimize my code for additional modes in such a way that the code could be more modular and work for any input.
+  
   
  ## Testing easy and normal difficulty modes with lose scenarios.
   <img src="http://g.recordit.co/skDT4unLgN.gif" width=1080><br>
   
- ## Testing hard and normal difficulty modes with lose scenarios..
+ ## Testing hard and normal difficulty modes with lose scenarios.
  <img src="http://g.recordit.co/DlNX19Mqmt.gif" width=1080><br>
   
  ## Test win on easy mode.
