@@ -23,18 +23,46 @@
     </p>
     
     
-    <button id="startBtn" onclick="startGame()">Start</button>
+    <button id="startBtn" class="hidden" onclick="startGame()">Start</button>
     <button id="stopBtn" class="hidden" onclick="stopGame()">Stop</button>
+    
     
     <h2 id="myTries"></h2>
     
-    <div id="gameButtonArea">
-         <button id="button1" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone()"></button>
-         <button id="button2" onclick="guess(2)" onmousedown="startTone(2)" onmouseup="stopTone()"></button>
-         <button id="button3" onclick="guess(3)" onmousedown="startTone(3)" onmouseup="stopTone()"></button>
-         <button id="button4" onclick="guess(4)" onmousedown="startTone(4)" onmouseup="stopTone()"></button>
-         <button id="button5" onclick="guess(5)" onmousedown="startTone(5)" onmouseup="stopTone()"></button>
-         <button id="button6" onclick="guess(6)" onmousedown="startTone(6)" onmouseup="stopTone()"></button>
+    <h3 id ="diff">
+      Select a difficulty.
+    </h3>
+    
+    <h3 id = "play" class = "hidden">
+      Click 'start' to play the game with your chosen difficulty.
+    </h3>
+    
+    <h4>
+    <button id="easyBtn" onclick="easyMode()">Easy</button>
+    <button id="normalBtn" onclick="normalMode()">Normal</button>
+    <button id="hardBtn" onclick="hardMode()">Hard</button>
+    </h4>
+    
+    <div id="gameButtonAreaEasy" class ="hidden">
+         <button id="easyButton1" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone()"></button>
+         <button id="easyButton2" onclick="guess(2)" onmousedown="startTone(2)" onmouseup="stopTone()"></button>
+         <button id="easyButton3" onclick="guess(3)" onmousedown="startTone(3)" onmouseup="stopTone()"></button>
+         </div>
+    
+    <div id="gameButtonAreaNormal" class = "hidden">
+         <button id="normalButton1" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone()"></button>
+         <button id="normalButton2" onclick="guess(2)" onmousedown="startTone(2)" onmouseup="stopTone()"></button>
+         <button id="normalButton3" onclick="guess(3)" onmousedown="startTone(3)" onmouseup="stopTone()"></button>
+         <button id="normalButton4" onclick="guess(4)" onmousedown="startTone(4)" onmouseup="stopTone()"></button>
+         </div>
+    
+    <div id="gameButtonAreaHard" class = "hidden">
+         <button id="hardButton1" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone()"></button>
+         <button id="hardButton2" onclick="guess(2)" onmousedown="startTone(2)" onmouseup="stopTone()"></button>
+         <button id="hardButton3" onclick="guess(3)" onmousedown="startTone(3)" onmouseup="stopTone()"></button>
+         <button id="hardButton4" onclick="guess(4)" onmousedown="startTone(4)" onmouseup="stopTone()"></button>
+         <button id="hardButton5" onclick="guess(5)" onmousedown="startTone(5)" onmouseup="stopTone()"></button>
+         <button id="hardButton6" onclick="guess(6)" onmousedown="startTone(6)" onmouseup="stopTone()"></button>
          </div>
 
   </body>
