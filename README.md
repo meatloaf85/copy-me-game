@@ -25,7 +25,7 @@ Name: Jarrett Gates
   
     I implemented a visual 'try' counter to track when the game should end. I would have liked to further expand on this by adding an audio cue        when pressing the wrong button on top of the visual counter changing.
   
-    With the addition of adding difficulty modes, some of my code repeats itself in several areas. I would like to be able to optimize my code for additional modes   in such a way that the code could be more modular and work for any input.
+    With the addition of adding difficulty modes, some of my code repeats itself in several areas. I would like to optimize my code for additional modes   in such a way that the code could be more modular and work for any input.
   
   
  ## Testing easy and normal difficulty modes with lose scenarios.
