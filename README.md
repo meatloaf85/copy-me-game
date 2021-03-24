@@ -21,7 +21,7 @@ Name: Jarrett Gates
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
  
-   ** (See EDIT:) If the user wanted more of a challenge, I would add a difficulty setting that a user can choose from: 'easy', 'normal' or 'hard' mode. With each     difficulty adjusting the timer for the tones/lights to be shorter or longer and adding/removing the amount of buttons to press. ** EDIT: I had extra time over my   spring break and implemented this function, I am quite happy with it!
+   ** (See EDIT:) If the user wanted more of a challenge, I would add a difficulty setting that a user can choose from: 'easy', 'normal' or 'hard' mode. With each     difficulty, adjusting the timer for the tones/lights to be shorter or longer and adding/removing the amount of buttons to press. ** EDIT: I had extra time over my   spring break and implemented this function, I am quite happy with it!
   
     I implemented a visual 'try' counter, the game ends after the user makes three mistakes. I would have liked to further expand on this by adding an audio cue        when pressing the wrong button on top of the visual counter changing.
   
