@@ -22,8 +22,11 @@ Name: Jarrett Gates
   
  <img src="http://g.recordit.co/Fa9ireaxfd.gif" width=1080><br>
  
- ## Testing all difficulty modes and lose scenarios.
+ ## Testing easy and normal difficulty modes and lose scenarios.
   <img src="http://g.recordit.co/skDT4unLgN.gif" width=1080><br>
+  
+ ## Testing hard and normal difficulty modes.
+ <img src="http://g.recordit.co/DlNX19Mqmt.gif" width=1080><br>
   
  ## Test win on easy mode.
   <img src="http://g.recordit.co/EUsbmkrTOS.gif" width=1080><br>
