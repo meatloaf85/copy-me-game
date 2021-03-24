@@ -3,7 +3,7 @@
 body {
   font-family: helvetica, arial, sans-serif;
   margin: 2em;
-  background_color: slategrey;
+  background-color: bisque;
   color : black;
 }
 
@@ -17,47 +17,109 @@ button {
   border-radius : 10px;
 }
 
-#gameButtonArea > button {
+#gameButtonAreaEasy > button {
   width : 200px;
   height : 200px;
   margin : 2px;
 }
+#gameButtonAreaNormal > button {
+  width : 200px;
+  height : 200px;
+  margin : 2px;
+}
+
+#gameButtonAreaHard > button {
+  width : 200px;
+  height : 200px;
+  margin : 2px;
+}
+
 .hidden {
   display : none;
 }
-#button1 {
+
+
+  #easyButton1 {
   background : lightgreen;
 }
-#button2 {
+  #easyButton2 {
   background : lightblue;
 }
-#button3 {
+  #easyButton3 {
   background : pink;
 }
-#button4 {
-  background : lightyellow;
-}
-#button1:active, #button1.lit {
+  #easyButton1:active, #easyButton1.lit {
   background : green;
 }
-#button2:active, #button2.lit  {
+  #easyButton2:active, #easyButton2.lit  {
   background : blue;
 }
-#button3:active, #button3.lit  {
+  #easyButton3:active, #easyButton3.lit  {
   background : red;
 }
-#button4:active, #button4.lit  {
-  background : yellow;
+  
+
+
+  #normalButton1 {
+  background : lightgreen;
 }
-#button5 {
-  background: rgb(100, 215, 220);
+  #normalButton2 {
+  background : lightblue;
 }
-#button5:active, #button5.lit  {
+  #normalButton3 {
+  background : pink;
+}
+  #normalButton1:active, #normalButton1.lit {
+  background : green;
+}
+  #normalButton2:active, #normalButton2.lit  {
+  background : blue;
+}
+  #normalButton3:active, #normalButton3.lit  {
+  background : red;
+}
+   #normalButton4 {
+  background : orange;
+}
+  #normalButton4:active, #normalButton4.lit  {
+  background : coral;
+    }
+  
+
+  #hardButton1 {
+  background : lightgreen;
+}
+  #hardButton2 {
+  background : lightblue;
+}
+  #hardButton3 {
+  background : pink;
+}
+  #hardButton1:active, #hardButton1.lit {
+  background : green;
+}
+  #hardButton2:active, #hardButton2.lit  {
+  background : blue;
+}
+  #hardButton3:active, #hardButton3.lit  {
+  background : red;
+}
+  #hardButton4 {
+  background : orange;
+}
+  #hardButton4:active, #hardButton4.lit  {
+  background : coral;
+    }
+  #hardButton5 {
+  background: rgb(70, 200, 220);
+}
+  #hardButton5:active, #hardButton5.lit  {
   background : rgb(50, 115, 220);
 }
-#button6 {
+  #hardButton6 {
   background : rgb(120, 120, 420);
 }
-#button6:active, #button6.lit  {
+  #hardButton6:active, #hardButton6.lit  {
   background : rgb(75, 80, 220); 
 }
+  
